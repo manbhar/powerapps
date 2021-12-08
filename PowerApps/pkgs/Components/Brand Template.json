@@ -1,0 +1,308 @@
+{
+  "ComponentAllowCustomization": true,
+  "ComponentChangedSinceFileImport": false,
+  "ComponentManifest": {
+    "AllowAccessToGlobals": false,
+    "AllowCustomization": true,
+    "Description": "",
+    "Name": "Brand Template",
+    "TemplateGuid": "2dc7ae4a8dd84f7ab9b07bff4b6e5228"
+  },
+  "ComponentType": "CanvasComponent",
+  "CustomGroupControlTemplateName": "",
+  "CustomProperties": [
+    {
+      "Category": 0,
+      "DisplayName": "Orange",
+      "Hidden": false,
+      "Name": "orange",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "MSFT Orange",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Yellow",
+      "Hidden": false,
+      "Name": "yellow",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "MSFT Yellow",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Green",
+      "Hidden": false,
+      "Name": "green",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "MSFT Green",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Teal",
+      "Hidden": false,
+      "Name": "teal",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "MSFT Teal",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Blue",
+      "Hidden": false,
+      "Name": "blue",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "MSFT Blue",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Purple",
+      "Hidden": false,
+      "Name": "purple",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "MSFT Purple",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Light Orange",
+      "Hidden": false,
+      "Name": "lightOrange",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "Orange, but light",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Light yellow",
+      "Hidden": false,
+      "Name": "lightYellow",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "Yellow, but light",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Light green",
+      "Hidden": false,
+      "Name": "lightGreen",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "Green, but light",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Light teal",
+      "Hidden": false,
+      "Name": "lightTeal",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "Teal, but light",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Light blue",
+      "Hidden": false,
+      "Name": "lightBlue",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "Blue, but light",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Light purple",
+      "Hidden": false,
+      "Name": "lightPurple",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "Purple, but light",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Dark orange",
+      "Hidden": false,
+      "Name": "darkOrange",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "Orange, but dark",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Dark yellow",
+      "Hidden": false,
+      "Name": "darkYellow",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "Yellow, but dark",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Dark green",
+      "Hidden": false,
+      "Name": "darkGreen",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "Green, but dark",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Dark teal",
+      "Hidden": false,
+      "Name": "darkTeal",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "Teal, but dark",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Dark blue",
+      "Hidden": false,
+      "Name": "darkBlue",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "Blue, but dark",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Dark purple",
+      "Hidden": false,
+      "Name": "darkPurple",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "Purple, but dark",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Light gray",
+      "Hidden": false,
+      "Name": "lightGray",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Extra light gray",
+      "Hidden": false,
+      "Name": "extraLightGray",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "Gray, but extra light",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Dark gray",
+      "Hidden": false,
+      "Name": "darkGray",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "Gray, but dark",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Extra dark gray",
+      "Hidden": false,
+      "Name": "extraDarkGray",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "Gray, but extra dark",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Gray",
+      "Hidden": false,
+      "Name": "gray",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "Gray, but lightish-medium",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Mid-Gray",
+      "Hidden": false,
+      "Name": "midGray",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "Gray, but darkish medium",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Font",
+      "Hidden": false,
+      "Name": "font",
+      "PropertyDataTypeKey": "String",
+      "Tooltip": "The typefacem name",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Font 16-centered sequence, header 2",
+      "Hidden": false,
+      "Name": "font16MediumHeaderSize",
+      "PropertyDataTypeKey": "Number",
+      "Tooltip": "For text",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Font 16-centered sequence, body size",
+      "Hidden": false,
+      "Name": "font16Size",
+      "PropertyDataTypeKey": "Number",
+      "Tooltip": "For body text",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Font 16-centered sequence, small body text",
+      "Hidden": false,
+      "Name": "font16SmallSize",
+      "PropertyDataTypeKey": "Number",
+      "Tooltip": "For text",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Font 16-centered sequence, header",
+      "Hidden": false,
+      "Name": "font16SmallHeaderSize",
+      "PropertyDataTypeKey": "Number",
+      "Tooltip": "For text",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Font 16-centered sequence, header 3",
+      "Hidden": false,
+      "Name": "font16LargeHeaderSize",
+      "PropertyDataTypeKey": "Number",
+      "Tooltip": "For text",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Font 16-centered sequence, header 4",
+      "Hidden": false,
+      "Name": "font16ExtraLargeHeaderSize",
+      "PropertyDataTypeKey": "Number",
+      "Tooltip": "For text",
+      "Type": "{\"Version\":\"1.320\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}}"
+    }
+  ],
+  "FirstParty": true,
+  "Id": "http://microsoft.com/appmagic/Component",
+  "IsComponentLocked": true,
+  "IsComponentTemplate": true,
+  "IsCustomGroupControlTemplate": false,
+  "IsPcfControl": false,
+  "IsPremiumPcfControl": false,
+  "IsWidgetTemplate": false,
+  "LastModifiedTimestamp": "637745857857089013",
+  "Name": "2dc7ae4a8dd84f7ab9b07bff4b6e5228",
+  "OverridableProperties": {},
+  "SourceLibraryId": "32065c72-3be3-43f3-b191-72538e960baa",
+  "TemplateOriginalName": "c7cbea4aaf784acd95bf3dad82a8e0e5",
+  "Version": "637290611988469430"
+}

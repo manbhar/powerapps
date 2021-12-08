@@ -1,0 +1,80 @@
+Tile As CanvasComponent:
+    Align: =Align.Right
+    BorderColor: =RGBA(0, 0, 0, 1)
+    BorderStyle: =BorderStyle.None
+    BorderThickness: =8
+    Color: =RGBA(0, 0, 0, 1)
+    Disabled: =false
+    DisabledFill: =RGBA(0, 0, 0, 25%)
+    Fill: =RGBA(0, 0, 0, 0)
+    Font: ="Open Sans"
+    Height: =200
+    Image: =SampleImage
+    NavigationTarget: =App.ActiveScreen
+    NavigationTransition: =ScreenTransition.None
+    Size: =Tile.Width / 8
+    Title: ="Text"
+    VerticalAlign: =VerticalAlign.Bottom
+    Width: =200
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Image1_2 As image:
+        FocusedBorderColor: =Image1_2.BorderColor
+        Height: =Tile.Height
+        HoverBorderColor: =ColorFade(Image1_2.BorderColor, 20%)
+        HoverFill: =ColorFade(Image1_2.Fill, 20%)
+        Image: =Tile.Image
+        ImagePosition: =ImagePosition.Fill
+        PressedBorderColor: =ColorFade(Image1_2.BorderColor, -20%)
+        PressedFill: =ColorFade(Image1_2.Fill, -20%)
+        Width: =Tile.Width
+        ZIndex: =1
+
+    Rectangle1 As rectangle:
+        BorderColor: =Tile.BorderColor
+        BorderStyle: =Tile.BorderStyle
+        BorderThickness: =Tile.BorderThickness
+        DisabledFill: =Tile.DisabledFill
+        DisplayMode: =If(Tile.Disabled, Disabled, Edit)
+        Fill: =Tile.Fill
+        FocusedBorderColor: =Rectangle1.BorderColor
+        Height: =Tile.Height
+        HoverFill: =Rectangle1.Fill
+        PressedFill: =Rectangle1.Fill
+        Width: =Tile.Width
+        ZIndex: =2
+
+    Label1 As label:
+        Align: =Tile.Align
+        Color: =Tile.Color
+        DisplayMode: =If(Tile.Disabled, Disabled, Edit)
+        FocusedBorderColor: =Label1.BorderColor
+        Font: =Tile.Font
+        Height: =Tile.Height
+        HoverBorderColor: =Label1.BorderColor
+        HoverColor: =Label1.Color
+        HoverFill: =Label1.Fill
+        OnSelect: |
+            =If(
+                And(
+                    Not(IsBlank(Tile.NavigationTarget)),
+                    Not(Tile.Disabled)
+                ),
+                Navigate(Tile.NavigationTarget),
+                false
+            );
+        PaddingBottom: =16
+        PaddingLeft: =16
+        PaddingRight: =Label1.Size * .4
+        PaddingTop: =16
+        PressedBorderColor: =Label1.BorderColor
+        PressedColor: =Label1.Color
+        PressedFill: =Label1.Fill
+        Size: =Tile.Size
+        Text: ="Text"
+        VerticalAlign: =Tile.VerticalAlign
+        Width: =Tile.Width
+        ZIndex: =3
+

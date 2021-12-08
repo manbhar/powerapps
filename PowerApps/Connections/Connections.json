@@ -1,0 +1,89 @@
+{
+  "6c3f79c8-28c9-4032-a70a-536aa1b87ff8": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/9e6b35510581416aa40352b987ee8a7e",
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1539/1.0.1539.2620/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://microsoft.sharepoint.com/teams/manishflowtraining": {
+        "dataSources": {
+          "LargeList": {
+            "tableName": "22d1091b-e4c5-4a66-81d8-57c0ffef3f4c"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "LargeList"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "6c3f79c8-28c9-4032-a70a-536aa1b87ff8"
+  },
+  "a4638926-2c20-4406-a452-44f734a14001": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_office365users/connections/2377130bd139432cb652bcf74f30f673",
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Users",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1542/1.0.1542.2635/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Users"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "a4638926-2c20-4406-a452-44f734a14001"
+  },
+  "f742d8e2-8758-48a0-8e27-8cdc3d6bcfe9": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/06f6212ec0fd47b8884fbf9958329296",
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1539/1.0.1539.2620/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://microsoft.sharepoint.com/teams/manishFlowtraining": {
+        "dataSources": {
+          "LargeList_1": {
+            "tableName": "22d1091b-e4c5-4a66-81d8-57c0ffef3f4c"
+          }
+        }
+      },
+      "https://microsoft.sharepoint.com/teams/MTUBDemoTeam": {
+        "dataSources": {
+          "Device Orders": {
+            "tableName": "930b4fe4-af84-45c8-ad81-8ebfd65388d1"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Device Orders",
+      "LargeList_1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "f742d8e2-8758-48a0-8e27-8cdc3d6bcfe9"
+  }
+}
