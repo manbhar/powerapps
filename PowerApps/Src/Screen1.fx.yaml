@@ -16,6 +16,7 @@ Screen1 As screen:
 
     Button2 As button:
         DisplayMode: =If(!IsBlank(LookUp(LargeList, names = TextInput1.Text).Name),Edit,Disabled)
+        Fill: =RGBA(255, 0, 0, 1)
         OnSelect: =LookUp(LargeList, names = TextInput1.Text).Name
         Text: ="Button"
         Width: =230
@@ -98,4 +99,10 @@ Screen1 As screen:
         X: =465
         Y: =44
         ZIndex: =6
+
+    Label2 As label:
+        Text: ="Text"
+        X: =60
+        Y: =60
+        ZIndex: =7
 
